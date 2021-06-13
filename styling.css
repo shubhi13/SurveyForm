@@ -1,0 +1,67 @@
+/*Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: hsl(165, 89%, 33%);
+			font-family: Verdana;
+			text-align: center;
+		}
+		/* Styling the Form  */
+		form {
+			background-color: #fff;
+			max-width: 1000px;
+			margin: 50px auto;
+			padding: 50px 30px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5)
+		}
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+            padding: auto;;
+		}
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 20px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input
+        {
+            padding: auto,10px;
+        }
+		.form-control select
+        {
+            padding:auto;
+        }
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;width: auto;
+			padding-inline-start: 20px;
+			font-family: inherit;
+			padding: 10px;
+			display:block;
+			width: 100%;
+		}
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] 
+		{
+			display: inline-block;
+			width: auto;
+			padding-inline-start: 20px;
+		}
+
+		/* Styling Button */
+		button {
+			background-color:rgb(0, 110, 255);
+			border: 1px solid;
+			border-radius: 2px;
+			font-size: 21px;
+			display:block;
+			width: 100px;
+			margin-top: 80px;
+			margin-bottom: 20px;
+		}
